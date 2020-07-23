@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>容器 | Sciter</title>
+    <meta name="description" content="基于原sciter文档的优化">
+    <meta name="generator" content="VuePress 1.3.1">
+    <link rel="icon" href="/logo.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.14df8ef2.css" as="style"><link rel="preload" href="/assets/js/app.564cc181.js" as="script"><link rel="preload" href="/assets/js/2.f091b61c.js" as="script"><link rel="preload" href="/assets/js/14.5ed6fac0.js" as="script"><link rel="prefetch" href="/assets/js/10.af124683.js"><link rel="prefetch" href="/assets/js/100.5ab51366.js"><link rel="prefetch" href="/assets/js/101.73480f3b.js"><link rel="prefetch" href="/assets/js/102.a5499c76.js"><link rel="prefetch" href="/assets/js/103.7ec3eb8c.js"><link rel="prefetch" href="/assets/js/104.e203cded.js"><link rel="prefetch" href="/assets/js/105.582369e0.js"><link rel="prefetch" href="/assets/js/106.d9976ea1.js"><link rel="prefetch" href="/assets/js/107.11196d12.js"><link rel="prefetch" href="/assets/js/108.bb762804.js"><link rel="prefetch" href="/assets/js/109.4d40e2e3.js"><link rel="prefetch" href="/assets/js/11.fa52c1f8.js"><link rel="prefetch" href="/assets/js/110.cc341f8f.js"><link rel="prefetch" href="/assets/js/111.5f20a0b6.js"><link rel="prefetch" href="/assets/js/112.c7dc0813.js"><link rel="prefetch" href="/assets/js/113.2fe52324.js"><link rel="prefetch" href="/assets/js/114.c6e125d2.js"><link rel="prefetch" href="/assets/js/115.026faf48.js"><link rel="prefetch" href="/assets/js/116.73b47b7c.js"><link rel="prefetch" href="/assets/js/117.ec3176a2.js"><link rel="prefetch" href="/assets/js/118.ac9d6ac6.js"><link rel="prefetch" href="/assets/js/119.8c5f3f2b.js"><link rel="prefetch" href="/assets/js/12.0c9cea57.js"><link rel="prefetch" href="/assets/js/120.0ceb7cb8.js"><link rel="prefetch" href="/assets/js/121.a19c5adb.js"><link rel="prefetch" href="/assets/js/122.eb3c9d50.js"><link rel="prefetch" href="/assets/js/123.09f7e4ac.js"><link rel="prefetch" href="/assets/js/124.8c32b6b4.js"><link rel="prefetch" href="/assets/js/125.f29b97e2.js"><link rel="prefetch" href="/assets/js/126.3d7f9c1a.js"><link rel="prefetch" href="/assets/js/127.f0381b50.js"><link rel="prefetch" href="/assets/js/128.de05fc4c.js"><link rel="prefetch" href="/assets/js/129.d6327862.js"><link rel="prefetch" href="/assets/js/13.47f1333b.js"><link rel="prefetch" href="/assets/js/130.e1fec9b6.js"><link rel="prefetch" href="/assets/js/131.9e3a3b8b.js"><link rel="prefetch" href="/assets/js/132.526b5014.js"><link rel="prefetch" href="/assets/js/15.66c031fc.js"><link rel="prefetch" href="/assets/js/16.483a32da.js"><link rel="prefetch" href="/assets/js/17.5bc8ec71.js"><link rel="prefetch" href="/assets/js/18.cc0be206.js"><link rel="prefetch" href="/assets/js/19.9b62ebaa.js"><link rel="prefetch" href="/assets/js/20.a98c0798.js"><link rel="prefetch" href="/assets/js/21.86eafb47.js"><link rel="prefetch" href="/assets/js/22.2ef500e6.js"><link rel="prefetch" href="/assets/js/23.6de00dfe.js"><link rel="prefetch" href="/assets/js/24.16a567cd.js"><link rel="prefetch" href="/assets/js/25.0bf66006.js"><link rel="prefetch" href="/assets/js/26.234f4e33.js"><link rel="prefetch" href="/assets/js/27.fb2e3402.js"><link rel="prefetch" href="/assets/js/28.34708c8e.js"><link rel="prefetch" href="/assets/js/29.4d8eada1.js"><link rel="prefetch" href="/assets/js/3.7ea26f66.js"><link rel="prefetch" href="/assets/js/30.5bb415f0.js"><link rel="prefetch" href="/assets/js/31.c8263b90.js"><link rel="prefetch" href="/assets/js/32.bd415599.js"><link rel="prefetch" href="/assets/js/33.b8d389da.js"><link rel="prefetch" href="/assets/js/34.571c55ba.js"><link rel="prefetch" href="/assets/js/35.8a7f87ba.js"><link rel="prefetch" href="/assets/js/36.2c423e72.js"><link rel="prefetch" href="/assets/js/37.a2681ec0.js"><link rel="prefetch" href="/assets/js/38.dc8aa28e.js"><link rel="prefetch" href="/assets/js/39.5a7dd89c.js"><link rel="prefetch" href="/assets/js/4.06aa2ba4.js"><link rel="prefetch" href="/assets/js/40.d2b61e41.js"><link rel="prefetch" href="/assets/js/41.59f2dfc7.js"><link rel="prefetch" href="/assets/js/42.d46543cd.js"><link rel="prefetch" href="/assets/js/43.6b81d626.js"><link rel="prefetch" href="/assets/js/44.341a01e1.js"><link rel="prefetch" href="/assets/js/45.66ba9b81.js"><link rel="prefetch" href="/assets/js/46.85555c41.js"><link rel="prefetch" href="/assets/js/47.1ca8e86a.js"><link rel="prefetch" href="/assets/js/48.46147d01.js"><link rel="prefetch" href="/assets/js/49.75982250.js"><link rel="prefetch" href="/assets/js/5.1e4da9ad.js"><link rel="prefetch" href="/assets/js/50.7786bf4b.js"><link rel="prefetch" href="/assets/js/51.0de21788.js"><link rel="prefetch" href="/assets/js/52.b110917a.js"><link rel="prefetch" href="/assets/js/53.3fcbaa64.js"><link rel="prefetch" href="/assets/js/54.aa936ba4.js"><link rel="prefetch" href="/assets/js/55.127a283f.js"><link rel="prefetch" href="/assets/js/56.02aa113c.js"><link rel="prefetch" href="/assets/js/57.2663e0f5.js"><link rel="prefetch" href="/assets/js/58.31453605.js"><link rel="prefetch" href="/assets/js/59.8ac9b41e.js"><link rel="prefetch" href="/assets/js/6.b14fd999.js"><link rel="prefetch" href="/assets/js/60.90153ab7.js"><link rel="prefetch" href="/assets/js/61.d84ae66c.js"><link rel="prefetch" href="/assets/js/62.922faf2e.js"><link rel="prefetch" href="/assets/js/63.8cb5e321.js"><link rel="prefetch" href="/assets/js/64.7871bcde.js"><link rel="prefetch" href="/assets/js/65.f46c424d.js"><link rel="prefetch" href="/assets/js/66.d83bc39d.js"><link rel="prefetch" href="/assets/js/67.22fdfbb1.js"><link rel="prefetch" href="/assets/js/68.7132c8db.js"><link rel="prefetch" href="/assets/js/69.13d9c6d1.js"><link rel="prefetch" href="/assets/js/7.54fa0855.js"><link rel="prefetch" href="/assets/js/70.7780c499.js"><link rel="prefetch" href="/assets/js/71.4c8d9981.js"><link rel="prefetch" href="/assets/js/72.17f1724d.js"><link rel="prefetch" href="/assets/js/73.6d4c2dd4.js"><link rel="prefetch" href="/assets/js/74.6a821f95.js"><link rel="prefetch" href="/assets/js/75.55dfc4a1.js"><link rel="prefetch" href="/assets/js/76.8cc122c5.js"><link rel="prefetch" href="/assets/js/77.1df9f769.js"><link rel="prefetch" href="/assets/js/78.3020e71e.js"><link rel="prefetch" href="/assets/js/79.cf5a3c2b.js"><link rel="prefetch" href="/assets/js/8.45807cfe.js"><link rel="prefetch" href="/assets/js/80.947c33a2.js"><link rel="prefetch" href="/assets/js/81.9e6efe5e.js"><link rel="prefetch" href="/assets/js/82.1caaed8d.js"><link rel="prefetch" href="/assets/js/83.1e809725.js"><link rel="prefetch" href="/assets/js/84.78c7ad84.js"><link rel="prefetch" href="/assets/js/85.17081e42.js"><link rel="prefetch" href="/assets/js/86.c73525b1.js"><link rel="prefetch" href="/assets/js/87.9e892dfd.js"><link rel="prefetch" href="/assets/js/88.2c43e781.js"><link rel="prefetch" href="/assets/js/89.52220a8d.js"><link rel="prefetch" href="/assets/js/9.53ff3b6e.js"><link rel="prefetch" href="/assets/js/90.274e597e.js"><link rel="prefetch" href="/assets/js/91.2c6aed2e.js"><link rel="prefetch" href="/assets/js/92.2a80d761.js"><link rel="prefetch" href="/assets/js/93.d49cf83b.js"><link rel="prefetch" href="/assets/js/94.f6dc69cc.js"><link rel="prefetch" href="/assets/js/95.d9e1bb1f.js"><link rel="prefetch" href="/assets/js/96.fa64258f.js"><link rel="prefetch" href="/assets/js/97.7dac506d.js"><link rel="prefetch" href="/assets/js/98.fd9b5a4b.js"><link rel="prefetch" href="/assets/js/99.91fc7337.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.14df8ef2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sciter</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/js/buttonClass.html" class="sidebar-link">按钮类</a></li><li><a href="/js/editorClass.html" class="sidebar-link">编辑器类</a></li><li><a href="/js/selectorClass.html" class="sidebar-link">选择器类</a></li><li><a href="/js/dateInput.html" class="sidebar-link">日期/时间输入</a></li><li><a href="/js/container.html" class="active sidebar-link">容器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/js/container.html#表单-form" class="sidebar-link">表单(form)</a></li><li class="sidebar-sub-header"><a href="/js/container.html#框架-frame" class="sidebar-link">框架(frame)</a></li><li class="sidebar-sub-header"><a href="/js/container.html#预览页面-pager" class="sidebar-link">预览页面(pager)</a></li><li class="sidebar-sub-header"><a href="/js/container.html#框架集-frameset" class="sidebar-link">框架集(frameset)</a></li><li class="sidebar-sub-header"><a href="/js/container.html#历史导航-history" class="sidebar-link">历史导航(history)</a></li></ul></li><li><a href="/js/output.html" class="sidebar-link">输出</a></li><li><a href="/js/menu.html" class="sidebar-link">菜单</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="容器"><a href="#容器" class="header-anchor">#</a> 容器</h1> <h2 id="表单-form"><a href="#表单-form" class="header-anchor">#</a> 表单(form)</h2> <h1>behavior:form</h1> <p>该元素处理&lt;form&gt;元素的扩展功能。该行为适用于任何容器元素，该元素需要&quot;复合值&quot;。</p> <p>behavior:form的主要应用场景: </p> <ul><li>经典的web from应用场景 - 当<em>action</em>属性被定义，该行为会表单中的数据向该表单的URL发送HTTP/POST请求。</li> <li>复合值容器的应用场景 - form表单的值为表单中一个name/value的命名元素(有name属性的元素)的映射表。</li></ul> <h2>元素</h2> <p>默认情况下，应用了该行为的元素有:</p> <ul><li><code>&lt;form&gt;</code></li></ul> <h2>示例</h2> <div><!----></div> <h2>模型</h2> <p>在form中的任何一个拥有<em>name</em>属性的DOM元素都会被认为是可提交的(submittable), 并且参与到from的值中。</p> <p>form的值总是一个复合(聚合、映射)的JSON值。</p> <p>示例, 下面是一个form:</p> <pre><code>&lt;form&gt;
+   First name: &lt;input|text name=&quot;first&quot; value=&quot;Foo&quot;&gt; 
+   Last name: &lt;input|text name=&quot;last&quot; value=&quot;Bar&quot;&gt;
+&lt;/form&gt;</code>
+</pre> <p>的值是:</p> <pre><code>{
+  first: &quot;Foo&quot;,
+  last: &quot;Bar&quot; 
+}</code>
+</pre> <h3>Radio组 和 check盒</h3> <p>一组radio元素有相同的名称(name)，一个组有一个值 - 该组中:checked状态的radio元素的value值。 </p> <p>check元素的值是它们的value属性的内容。如果checkbox未选中则它的值为undefined。</p> <p>因此form:</p> <pre><code>&lt;form&gt;
+   Name: &lt;input|text name=&quot;firstName&quot; value=&quot;Ivan&quot;&gt;<br>
+   Male: &lt;input|radio name=&quot;sex&quot; value=&quot;male&quot; checked&gt;
+   Female: &lt;input|radio name=&quot;sex&quot; value=&quot;female&quot;&gt;
+   Adult: &lt;input|checkbox name=&quot;adult&quot; value=&quot;mature&quot; checked&gt;
+   Owns Cadillac: &lt;input|checkbox name=&quot;ownsCadddilac&quot; value=&quot;yes&quot;&gt;
+&lt;/form&gt;</code>
+</pre> <p>的值为:</p> <pre><code>{
+  firstName:&quot;Ivan&quot;,
+  sex: &quot;male&quot;,
+  adult: &quot;mature&quot;,
+  ownsCadddilac: undefined
+}</code>
+</pre> <h3>字段组(Field groups)</h3> <p>一些字段可以打包到一个表单命名容器中，在表单的值映射表中，它们打包成一个子对象:</p> <pre><code>&lt;form&gt;
+   &lt;div name=&quot;credentials&quot;&gt;
+     User name: &lt;input|text name=&quot;un&quot; value=&quot;Ivan&quot;&gt;
+     Password: &lt;input|password name=&quot;pwd&quot; value=&quot;12345&quot;&gt;
+   &lt;/div&gt;<br>   Save login: &lt;input|checkbox name=&quot;parsistLogin&quot; value=&quot;true&quot; checked&gt;
+&lt;/form&gt;</code>
+</pre> <p>生成的值为: </p> <pre><code>{  
+   credentials: { 
+     un: &quot;Ivan&quot;, 
+     pwd: &quot;12345&quot; },
+   persistLogin: true; 
+}</code>
+</pre> <h2>属性</h2> <p>下面的这些属性用于web form的情况:</p> <ul><li><code>action</code> - URL, 提交网页表单的URL，表单数据的接收者;</li> <li><code>target</code> - 可选参数, 目标框架(frame)的名称(name)或id，即action URL的响应者;</li> <li><code>method</code> - 浏览器提交表单使用的HTTP方法。可能的值有: &quot;post&quot;和&quot;get&quot;. 默认值: &quot;post&quot;</li> <li><code>enctype</code> - 当<code>method=&quot;post&quot;</code>时，定义提交的MIME格式，值可以为:</li> <ul><li><code>&quot;application/x-www-form-urlencoded&quot;</code> - 如果该属性未指定时的默认值;</li> <li><code>&quot;multipart/form-data&quot;</code> - 用于当表单包含<code>&lt;input name=&quot;...&quot; type=&quot;file&quot;&gt;</code>元素时。</li></ul></ul> <h2>事件</h2> <ul><li>FORM_RESET 事件 - 当点击表单中的&lt;button|reset&gt;按钮时生成该事件。如果该事件未被脚本处理，则表单将清空所有input元素的值，并将它们设置为它们定义的默认值; </li> <li>FORM_SUBMIT 事件 - 当点击表单中的&lt;button|submit&gt;按钮时生成该事件。如果该事件未被脚本处理，则该行为将会发生表单的值到<em>action</em>指定的URL; </li> <li>FORM_VALUE_CHANGED 事件 - 当表单中某个input发生&quot;change&quot;事件时生成。该事件被翻译成表单元素的&quot;change&quot;事件。</li></ul> <h2>方法</h2> <dl><dt>submit</dt> <dd>() - 提交表单的内容，需要定义表单的<em>action</em>属性。</dd> <dt>reset</dt> <dd>() - 重置表单中的所有输入内容为它们的初始值。</dd></dl> <h2>value</h2> <p>name/value map - TIScript中的对象，该对象中每个属性的名称对应表单中DOM元素的name属性。</p> <h2>脚本中的表单改变事件处理</h2> <h3><code>on()</code>订阅</h3> <pre><code>var frm = $(form#some);
+frm.on(&quot;change&quot;, function() { var formValue = this.value; ... });
+self.on(&quot;change&quot;, &quot;form#some&quot;, function() { var formValue = this.value; ... });
+</code></pre> <h3>事件处理</h3> <pre><code>event change $(form#some) { ... 事件处理代码 ... }</code>
+</pre> <h2 id="框架-frame"><a href="#框架-frame" class="header-anchor">#</a> 框架(frame)</h2> <h1>behavior:frame</h1> <p>该行为处理&lt;frame&gt;/&lt;iframe&gt;(宿主文档中的子文档容器)元素的扩展功能。</p> <p>该行为可以应用到任何块级元素上, 如：&lt;div&gt;、&lt;section&gt;。</p> <h2>元素</h2> <p>默认情况下，应用了该行为的元素有:</p> <ul><li><code>&lt;frame&gt;</code> - 块级文档容器;</li> <li><code>&lt;iframe&gt;</code> - 行内块文档容器。</li></ul> <p>Sciter中, <code>&lt;frame&gt;</code>是一个普通的DOM元素，它可以出现在任何其他块元素可出现的地方，而不仅仅是作为&lt;frameset&gt;的子元素。</p> <h2>模型</h2> <p>&lt;frame&gt;元素初始时可以有任何子元素，这方面&lt;frame&gt;和&lt;div&gt;、&lt;section&gt;没有什么区别。</p> <pre><code>&lt;frame&gt;
+   &lt;p&gt;Select document to load&lt;/p&gt; 
+&lt;/frame&gt;</code>
+</pre> <p>在&lt;frame&gt;加载完子文档(由于<em>src</em>的处理 或 调用了<code>.load()</code>方法)后，frame将只有一个子元素 —— 加载文档根元素, 如&lt;html&gt;。</p> <p>&lt;frame&gt;和加载的文档:</p> <pre><code>&lt;frame&gt;
+   &lt;html&gt;
+     &lt;head&gt;...&lt;/head&gt;  
+     &lt;body&gt;...&lt;/body&gt;  
+   &lt;/html&gt;
+&lt;/form&gt;</code>
+</pre> <p>若脚本需要访问子文档，可以使用frame[0]来获取frame的第一个根元素 - 子文档的根元素:</p> <pre><code>var frm = $(frame#main);
+var childDoc = frm[0];
+var someBtn = childDoc.$(&quot;button#some&quot;);
+...</code>
+</pre> <h2>属性</h2> <p>该行为需要知道的属性:</p> <ul><li><code>src=&quot;url&quot;</code> - 可选, 加载到frame的文档的URL;</li> <li><code>content-style=&quot;url&quot;</code> - 可选, 应用到加载文档的.css文件的URL。 该属性用于宿主文档需要给子文档应用一些特定样式时。</li></ul> <h2>状态标志</h2> <ul><li><code>:busy</code> - 该标志表示文档正在加载。它可用于设置&quot;文档加载中...&quot;的样式。</li></ul> <h2>事件</h2> <ul><li>DOCUMENT_CREATED 事件 - 该事件生成于文档加载的第一步骤。这一刻新文档已经存在但为空;</li> <li>DOCUMENT_COMPLETE 事件 - 该事件生成于文档完成加载时 ——DOM已经准备好，并且所有待处理资源请求已经处理完成。注意：该事件是Sciter特有的。</li></ul> <h2>方法</h2> <dl><dt>load</dt> <dd>(url:string) - 从指定URL加载html文档;</dd> <dt>load</dt> <dd>(html:string, baseUrl: string) - 从<em>html</em>字符串加载html文档。baseUrl用于指定文档中的相对URL的根URL。</dd> <dt>clear</dt> <dd>() - 通过加载一个空文档来清除frame的内容。</dd> <dt>mediaVars</dt> <dd>() : object - 返回加载文档使用的媒体(media)变量的key/value映射表。</dd> <dt>mediaVars</dt> <dd>( map: object [,reset: true | false] ) - 设置map为加载文档的媒体变量，如果<em>reset</em>为true，将会应用该媒体。</dd></dl> <h2>value</h2> <p>N/A</p> <h2>脚本中Frame事件的处理</h2> <pre><code>var frame = $(frame#some);
+btn.onControlEvent = function(evt)
+{
+  switch(evt.type) {
+    case Event.DOCUMENT_CREATED: /* evt.target 是一个文档 */ break;
+    case Event.DOCUMENT_COMPLETE: /* evt.target 是一个文档 */ break;
+  }
+}</code>
+</pre> <h3>事件处理</h3> <pre><code>event complete $(frame#some) { ... 事件处理代码 ... }</code>
+</pre> <h2 id="预览页面-pager"><a href="#预览页面-pager" class="header-anchor">#</a> 预览页面(pager)</h2> <h1>behavior:pager</h1> <p>该行为处理&lt;frame|pager&gt;和&lt;frame type=pager&gt;元素的相关功能。</p> <p>pager实现了打印和打印预览功能。</p> <p>该行为可以被应用到任何块元素上。</p> <h2>元素</h2> <p>默认情况下，拥有<em>behavior:pager</em>行为的元素有:</p> <ul><li><code>&lt;frame|pager&gt;</code> - 页面打印预览的容器;</li></ul> <h2>模型</h2> <p>在文档加载完成后，&lt;frame|pager&gt;元素将会有一些&lt;pagebox&gt;子元素，它们的数量由<code>cols</code>和<code>rows</code>属性定义:</p> <pre><code>&lt;frame|pager cols=2&gt;
+   &lt;pagebox/&gt;
+   &lt;pagebox/&gt;
+&lt;/frame&gt;</code>
+</pre> <p>每个&lt;pagebox/&gt;元素渲染它自己要打印的页面的模板实例。</p> <h2>属性</h2> <p>&lt;frame&gt;元素中有特定含义的属性:</p> <ul><li><code>src=&quot;url&quot;</code> - 可选, 加载到frame中的文档URL;</li> <li><code>page-template=&quot;url&quot;</code> - 可选, 页面模板文档的URL;</li> <li><code>cols=&quot;number&quot;</code> 和 <code>rows=&quot;number&quot;</code> - 者两个属性定义打印预览时的&lt;pagebox&gt;(页面盒)的数量。</li></ul> <h2>状态标识</h2> <ul><li>N/A</li></ul> <h2>事件</h2> <ul><li><code>&quot;paginationstart&quot;</code> 事件 - 在分页时的第一步触发事件。这时要打印的文档刚加载完成;</li> <li><code>&quot;paginationpage&quot;</code> 事件 - 在打印每个页面时触发该事件。event.reason是页号 - 1...N;</li> <li><code>&quot;paginationend&quot;</code> 事件 - 在分页时的最后一步触发事件。这时待打印页数已经知道，并且通过event.reason字段来报告。</li></ul> <h2>方法</h2> <dl><dt>loadDocument</dt> <dd>([templateUrl:string], documentUrl:string) - 从给定的url加载文档和打印模板;</dd> <dt>pagesTotal</dt> <dd>() : integer, 返回找到的页数;</dd> <dt>pageNo</dt> <dd>() : integer, 返回视图中渲染的第一个页面的页号;</dd> <dt>pageNo</dt> <dd>(number: integer), 将视图导航到number指定的页面;</dd> <dt>selectPrinter</dt> <dd>() : 打开系统的选择打印机对话框来选择目标打印机, 然后自动配置的页面尺寸，可能启动分页操作。</dd> <dt>selectDefaultPrinter()</dt> <dd>() : 选择默认打印机作为打印目标, 可能启动分页操作。</dd> <dt>print</dt> <dd>() - 打印当前文档到目标打印机上。</dd></dl> <h2>值</h2> <p>N/A</p> <h2>在脚本中处理Frame事件</h2> <pre><code>var pager = $(frame#pager);
+pager.on(&quot;paginationstart&quot;, function() {...});
+pager.on(&quot;paginationend&quot;, function(evt) { var npages = evt.reason; ...});
+</code>
+</pre> <h2 id="框架集-frameset"><a href="#框架集-frameset" class="header-anchor">#</a> 框架集(frameset)</h2> <h1>behavior:frame-set</h1> <p>该行为处理&lt;frameset&gt;元素的扩展功能 - 由所谓的&quot;分隔线(splitters)&quot;分隔的&quot;块面板&quot;容器，它允许调整容器中面板的尺寸。</p> <p>该行为可以应用到任何块级容器上，如&lt;div&gt;、&lt;section&gt;等。</p> <h2>元素</h2> <p>默认情况下，应用了该行为的元素有:</p> <ul><li><code>&lt;frameset&gt;</code> - 面板容器。</li></ul> <h2>示例</h2> <div><!----></div> <h2>模型</h2> <p>在Sciter中，&lt;frameset&gt;元素可以包含&lt;frame&gt;元素，也可以包含其他块级元素(如 &lt;div&gt;、&lt;section&gt;等)来作为一个面板。</p> <p>面板可以被&lt;splitter&gt;元素(可以指定splitter的特有样式)分隔。</p> <p>示例, 一个典型的帮助窗口布局:</p> <pre><code>&lt;frameset cols=&quot;120px,*&quot;&gt;
+   &lt;div id=&quot;help-index&quot;&gt;
+      &lt;a href=&quot;first-topic.htm&quot; target=&quot;help-content&quot;&gt;主题1&lt;/a&gt; 
+   &lt;/div&gt;
+   &lt;splitter/&gt;
+   &lt;frame id=&quot;help-content&quot;&gt;主题1的内容&lt;/frame&gt;
+&lt;/frameset&gt;</code>
+</pre> <p>第一个面板是一个&lt;div&gt;元素，它用于静态的内容。&lt;frame&gt;是选择的主题元素的容器。&lt;splitter&gt;用于交互式的调整面板的尺寸。</p> <h2>属性</h2> <p>该行为需要知道的属性:</p> <ul><li><code>cols=&quot;宽度列表&quot;</code> - 声明列布局，指定&lt;frameset&gt;中的列的初始宽度;</li> <li><code>rows=&quot;高度列表&quot;</code> - 声明行布局，指定&lt;frameset&gt;中的行的初始高度;</li></ul> <p>cols或rows属性必须定义其中一个，宽度/高度列表是一个以逗号分隔的Sciter长度单位: dips、px、mm等, 包括弹力单位(<code>*</code>)。</p> <h2>事件</h2> <p>N/A - 该行为没有特有事件。</p> <ul></ul> <h2>方法</h2> <dl><dt>framesetState</dt> <dd>() : array - 返回一个长度(lengths)数组 - 当前frameset中面板宽度/高度数组;</dd> <dt>framesetState</dt> <dd>(lengths: array) - 应用列/行的长度到frameset中。</dd></dl> <p>uiState方法用于持久化frameset的UI状态。</p> <h2>value</h2> <p>N/A</p> <h2 id="历史导航-history"><a href="#历史导航-history" class="header-anchor">#</a> 历史导航(history)</h2> <h1>behavior:history</h1> <p>这个行为提供了对历史页面导航的支持, 类似于点击浏览器中的&quot;前进&quot;和&quot;后退&quot;按钮。</p> <h2>元素</h2> <p><code>&lt;frame history&gt;</code> - 标准的frame元素，只是多了一个history属性。</p> <h2>模型</h2> <p>这个行为可以被应用到任何包含frame的元素上。比如，如果需要可以应用到&lt;frameset&gt;。</p> <h2>属性</h2> <p>behavior:history没有使用任何特别的属性。</p> <h2>方法</h2> <dl><dt>canGoBack</dt> <dd><strong>(</strong> <strong>)</strong> : <em>true</em> | <em>false</em>,  如果存在&quot;历史页面&quot;，并且goBack()方法将可以成功时，则返回true。</dd> <dt>canGoForward</dt> <dd><strong>(</strong> <strong>)</strong> : <em>true</em> | <em>false</em>,  如果&quot;向前&quot;状态可用，并且goForward()方法将可以成功时，则返回true。</dd> <dt>goBack</dt> <dd><strong>(</strong> <strong>)</strong> : <em>true</em> | <em>false</em>,  &quot;向后/回退&quot;导航栈，当导航成功时返回<em>true</em>。</dd> <dt>goForward</dt> <dd><strong>(</strong> <strong>)</strong> : <em>true</em> | <em>false</em>,  &quot;向前&quot;导航栈，当导航成功时返回<em>true</em>。</dd></dl> <h2>状态</h2> <p>N/A</p> <h2>事件</h2> <p>这个行为会生成以下事件:</p> <dl><dt>HISTORY_STATE_CHANGED</dt> <dd>- 当内部的导航栈状态被改变时触发。</dd></dl> <p>这个行为反应了以下事件:</p> <dl><dt>HISTORY_PUSH</dt> <dd>- 发生了超链接导航，并且behavior:frame元素加载了新的内容。</dd> <dt>HISTORY_PRIOR</dt> <dd>- 该行为将会调用goBack()方法来处理该事件。</dd> <dt>HISTORY_NEXT</dt> <dd>- 该行为将会调用goForward()方法来处理该事件。</dd></dl> <h2>值</h2> <p>N/A</p> <h2>在脚本中历史状态改变的处理</h2> <code>onControlEvent</code>处理器：
+  <pre><code>var edit = $(input#some);
+edit.onControlEvent = function(evt)
+{
+  switch(evt.type) {
+    case Event.HISTORY_STATE_CHANGED: 
+       /* evt.target为该元素 */ 
+       break;
+  }
+}</code>
+</pre> <h3>decorators.tis处理器</h3> <pre><code>include &quot;decorators.tis&quot;;
+@when Event.HISTORY_STATE_CHANGED @on &quot;frame#content&quot; 
+   function() {
+     ... 事件处理代码 ...;
+   }</code>
+</pre></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/js/dateInput.html" class="prev">
+        日期/时间输入
+      </a></span> <span class="next"><a href="/js/output.html">
+        输出
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.564cc181.js" defer></script><script src="/assets/js/2.f091b61c.js" defer></script><script src="/assets/js/14.5ed6fac0.js" defer></script>
+  </body>
+</html>
