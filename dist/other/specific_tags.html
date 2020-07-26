@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sciter特有标签 | Sciter</title>
+    <meta name="description" content="基于原sciter文档的优化">
+    <meta name="generator" content="VuePress 1.3.1">
+    <link rel="icon" href="/logo.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.14df8ef2.css" as="style"><link rel="preload" href="/assets/js/app.25afb6f1.js" as="script"><link rel="preload" href="/assets/js/2.f091b61c.js" as="script"><link rel="preload" href="/assets/js/82.1caaed8d.js" as="script"><link rel="prefetch" href="/assets/js/10.af124683.js"><link rel="prefetch" href="/assets/js/100.5ab51366.js"><link rel="prefetch" href="/assets/js/101.73480f3b.js"><link rel="prefetch" href="/assets/js/102.a5499c76.js"><link rel="prefetch" href="/assets/js/103.7ec3eb8c.js"><link rel="prefetch" href="/assets/js/104.e203cded.js"><link rel="prefetch" href="/assets/js/105.582369e0.js"><link rel="prefetch" href="/assets/js/106.d9976ea1.js"><link rel="prefetch" href="/assets/js/107.89e7db1b.js"><link rel="prefetch" href="/assets/js/108.b0c8bd49.js"><link rel="prefetch" href="/assets/js/109.4d40e2e3.js"><link rel="prefetch" href="/assets/js/11.fa52c1f8.js"><link rel="prefetch" href="/assets/js/110.cc341f8f.js"><link rel="prefetch" href="/assets/js/111.5f20a0b6.js"><link rel="prefetch" href="/assets/js/112.9d1df522.js"><link rel="prefetch" href="/assets/js/113.d1240d1a.js"><link rel="prefetch" href="/assets/js/114.c6e125d2.js"><link rel="prefetch" href="/assets/js/115.026faf48.js"><link rel="prefetch" href="/assets/js/116.73b47b7c.js"><link rel="prefetch" href="/assets/js/117.ec3176a2.js"><link rel="prefetch" href="/assets/js/118.ac9d6ac6.js"><link rel="prefetch" href="/assets/js/119.8c5f3f2b.js"><link rel="prefetch" href="/assets/js/12.53e904e3.js"><link rel="prefetch" href="/assets/js/120.0ceb7cb8.js"><link rel="prefetch" href="/assets/js/121.a19c5adb.js"><link rel="prefetch" href="/assets/js/122.eb3c9d50.js"><link rel="prefetch" href="/assets/js/123.09f7e4ac.js"><link rel="prefetch" href="/assets/js/124.8c32b6b4.js"><link rel="prefetch" href="/assets/js/125.f29b97e2.js"><link rel="prefetch" href="/assets/js/126.3d7f9c1a.js"><link rel="prefetch" href="/assets/js/127.f0381b50.js"><link rel="prefetch" href="/assets/js/128.de05fc4c.js"><link rel="prefetch" href="/assets/js/129.d6327862.js"><link rel="prefetch" href="/assets/js/13.47f1333b.js"><link rel="prefetch" href="/assets/js/130.e1fec9b6.js"><link rel="prefetch" href="/assets/js/131.9e3a3b8b.js"><link rel="prefetch" href="/assets/js/132.526b5014.js"><link rel="prefetch" href="/assets/js/14.5ed6fac0.js"><link rel="prefetch" href="/assets/js/15.66c031fc.js"><link rel="prefetch" href="/assets/js/16.483a32da.js"><link rel="prefetch" href="/assets/js/17.5bc8ec71.js"><link rel="prefetch" href="/assets/js/18.cc0be206.js"><link rel="prefetch" href="/assets/js/19.9b62ebaa.js"><link rel="prefetch" href="/assets/js/20.a98c0798.js"><link rel="prefetch" href="/assets/js/21.86eafb47.js"><link rel="prefetch" href="/assets/js/22.2ef500e6.js"><link rel="prefetch" href="/assets/js/23.6de00dfe.js"><link rel="prefetch" href="/assets/js/24.16a567cd.js"><link rel="prefetch" href="/assets/js/25.0bf66006.js"><link rel="prefetch" href="/assets/js/26.234f4e33.js"><link rel="prefetch" href="/assets/js/27.fb2e3402.js"><link rel="prefetch" href="/assets/js/28.34708c8e.js"><link rel="prefetch" href="/assets/js/29.4d8eada1.js"><link rel="prefetch" href="/assets/js/3.7ea26f66.js"><link rel="prefetch" href="/assets/js/30.5bb415f0.js"><link rel="prefetch" href="/assets/js/31.c8263b90.js"><link rel="prefetch" href="/assets/js/32.bd415599.js"><link rel="prefetch" href="/assets/js/33.b8d389da.js"><link rel="prefetch" href="/assets/js/34.571c55ba.js"><link rel="prefetch" href="/assets/js/35.8a7f87ba.js"><link rel="prefetch" href="/assets/js/36.2c423e72.js"><link rel="prefetch" href="/assets/js/37.a2681ec0.js"><link rel="prefetch" href="/assets/js/38.dc8aa28e.js"><link rel="prefetch" href="/assets/js/39.638ecade.js"><link rel="prefetch" href="/assets/js/4.06aa2ba4.js"><link rel="prefetch" href="/assets/js/40.d2b61e41.js"><link rel="prefetch" href="/assets/js/41.59f2dfc7.js"><link rel="prefetch" href="/assets/js/42.d46543cd.js"><link rel="prefetch" href="/assets/js/43.6b81d626.js"><link rel="prefetch" href="/assets/js/44.341a01e1.js"><link rel="prefetch" href="/assets/js/45.66ba9b81.js"><link rel="prefetch" href="/assets/js/46.85555c41.js"><link rel="prefetch" href="/assets/js/47.1ca8e86a.js"><link rel="prefetch" href="/assets/js/48.46147d01.js"><link rel="prefetch" href="/assets/js/49.75982250.js"><link rel="prefetch" href="/assets/js/5.1e4da9ad.js"><link rel="prefetch" href="/assets/js/50.7786bf4b.js"><link rel="prefetch" href="/assets/js/51.0de21788.js"><link rel="prefetch" href="/assets/js/52.b110917a.js"><link rel="prefetch" href="/assets/js/53.3fcbaa64.js"><link rel="prefetch" href="/assets/js/54.aa936ba4.js"><link rel="prefetch" href="/assets/js/55.127a283f.js"><link rel="prefetch" href="/assets/js/56.02aa113c.js"><link rel="prefetch" href="/assets/js/57.2663e0f5.js"><link rel="prefetch" href="/assets/js/58.31453605.js"><link rel="prefetch" href="/assets/js/59.8ac9b41e.js"><link rel="prefetch" href="/assets/js/6.b14fd999.js"><link rel="prefetch" href="/assets/js/60.90153ab7.js"><link rel="prefetch" href="/assets/js/61.d84ae66c.js"><link rel="prefetch" href="/assets/js/62.922faf2e.js"><link rel="prefetch" href="/assets/js/63.8cb5e321.js"><link rel="prefetch" href="/assets/js/64.7871bcde.js"><link rel="prefetch" href="/assets/js/65.f46c424d.js"><link rel="prefetch" href="/assets/js/66.d83bc39d.js"><link rel="prefetch" href="/assets/js/67.22fdfbb1.js"><link rel="prefetch" href="/assets/js/68.7132c8db.js"><link rel="prefetch" href="/assets/js/69.13d9c6d1.js"><link rel="prefetch" href="/assets/js/7.54fa0855.js"><link rel="prefetch" href="/assets/js/70.7780c499.js"><link rel="prefetch" href="/assets/js/71.4c8d9981.js"><link rel="prefetch" href="/assets/js/72.17f1724d.js"><link rel="prefetch" href="/assets/js/73.6d4c2dd4.js"><link rel="prefetch" href="/assets/js/74.6a821f95.js"><link rel="prefetch" href="/assets/js/75.55dfc4a1.js"><link rel="prefetch" href="/assets/js/76.8cc122c5.js"><link rel="prefetch" href="/assets/js/77.1df9f769.js"><link rel="prefetch" href="/assets/js/78.3020e71e.js"><link rel="prefetch" href="/assets/js/79.cf5a3c2b.js"><link rel="prefetch" href="/assets/js/8.45807cfe.js"><link rel="prefetch" href="/assets/js/80.947c33a2.js"><link rel="prefetch" href="/assets/js/81.9e6efe5e.js"><link rel="prefetch" href="/assets/js/83.1e809725.js"><link rel="prefetch" href="/assets/js/84.78c7ad84.js"><link rel="prefetch" href="/assets/js/85.17081e42.js"><link rel="prefetch" href="/assets/js/86.c73525b1.js"><link rel="prefetch" href="/assets/js/87.9e892dfd.js"><link rel="prefetch" href="/assets/js/88.2c43e781.js"><link rel="prefetch" href="/assets/js/89.52220a8d.js"><link rel="prefetch" href="/assets/js/9.53ff3b6e.js"><link rel="prefetch" href="/assets/js/90.274e597e.js"><link rel="prefetch" href="/assets/js/91.2c6aed2e.js"><link rel="prefetch" href="/assets/js/92.2a80d761.js"><link rel="prefetch" href="/assets/js/93.d49cf83b.js"><link rel="prefetch" href="/assets/js/94.f6dc69cc.js"><link rel="prefetch" href="/assets/js/95.d9e1bb1f.js"><link rel="prefetch" href="/assets/js/96.fa64258f.js"><link rel="prefetch" href="/assets/js/97.7dac506d.js"><link rel="prefetch" href="/assets/js/98.fd9b5a4b.js"><link rel="prefetch" href="/assets/js/99.91fc7337.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.14df8ef2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sciter</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/other/standalone_Sciter_executable.html" class="sidebar-link">scapp.exe</a></li><li><a href="/other/HTML_Window.html" class="sidebar-link">HTML窗口</a></li><li><a href="/other/window_frame_extended.html" class="sidebar-link">窗口标题上的工具条</a></li><li><a href="/other/IAccessible_and_UI_automation_testing.html" class="sidebar-link">IAccessible和UI自动测试</a></li><li><a href="/other/Context_menus.html" class="sidebar-link">上下文菜单</a></li><li><a href="/other/Drag_and_Drop.html" class="sidebar-link">拖拽操作</a></li><li><a href="/other/specific_tags.html" class="active sidebar-link">Sciter特有标签</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/other/specific_tags.html#sciter特有标签" class="sidebar-link">Sciter特有标签</a></li></ul></li><li><a href="/other/behavior_prototype_aspect.html" class="sidebar-link">behavior与prototype/aspect</a></li><li><a href="/other/Better_CSS_sprites.html" class="sidebar-link">更好的CSS精灵</a></li><li><a href="/other/Caret_positions_in_HTML.html" class="sidebar-link">HTML中的插入位置</a></li><li><a href="/other/construction_mean_TIScript.html" class="sidebar-link">TIScript中::构造器</a></li><li><a href="/other/DOM_Inspector_how_remove_border_from_input.html" class="sidebar-link">怎么移除输入框的边框</a></li><li><a href="/other/frame_content_style.html" class="sidebar-link">frame的content-style属性</a></li><li><a href="/other/new_TIScript_features.html" class="sidebar-link">TIScript的新特性</a></li><li><a href="/other/Plus_for_Sciter.html" class="sidebar-link">Sciter的Plus框架</a></li><li><a href="/other/plus_and_formation_what_the_difference.html" class="sidebar-link">+Plus与+Formation的区别</a></li><li><a href="/other/Promises_A.html" class="sidebar-link">Promises A+</a></li><li><a href="/other/Sciter_3.html" class="sidebar-link">Sciter 3 简介</a></li><li><a href="/other/Sciter_UI_application_architecture.html" class="sidebar-link">Sciter的UI架构</a></li><li><a href="/other/Sciter_UI_basic_principles.html" class="sidebar-link">Sciter的UI设计基本原则</a></li><li><a href="/other/Sciter_on_multihead_system.html" class="sidebar-link">Sciter在多屏系统上</a></li><li><a href="/other/Sciter_HTML_parsing_flavour.html" class="sidebar-link">Sciter中HTML特殊格式</a></li><li><a href="/other/Sciter_video_support.html" class="sidebar-link">Sciter的video标签</a></li><li><a href="/other/Theory_of_URL.html" class="sidebar-link">URL原理</a></li><li><a href="/other/TIScript_syntax_compatible_with_CSS.html" class="sidebar-link">TIScript语法兼容CSS</a></li><li><a href="/other/Use_of_CSS_constants_in_script.html" class="sidebar-link">在脚本中使用CSS常量</a></li><li><a href="/other/visibility_none_article.html" class="sidebar-link">visibility的none值</a></li><li><a href="/other/this_and_this_super_function_arguments.html" class="sidebar-link">this与this super</a></li><li><a href="/other/pager_template_format.html" class="sidebar-link">打印预览模板页面格式</a></li><li><a href="/other/task_await_feature.html" class="sidebar-link">TIScript中的task/await特性</a></li><li><a href="/other/Sciter_and_DirectX.html" class="sidebar-link">Sciter与DirectX</a></li><li><a href="/other/path_images_doc.html" class="sidebar-link">path图像</a></li><li><a href="/other/Localization.html" class="sidebar-link">本地化(i18n)处理</a></li><li><a href="/other/Reusable_components.html" class="sidebar-link">可重用组件化</a></li><li><a href="/other/collapsed_and_expanded_state.html" class="sidebar-link">collapsed和expanded状态</a></li><li><a href="/other/event_handler_assignment.html" class="sidebar-link">事件赋值方式</a></li><li><a href="/other/sciter_for_AngularJS_practitioners.html" class="sidebar-link">AngularJS使用者的Sciter指南</a></li><li><a href="/other/upcomming_changes_in_4_1.html" class="sidebar-link">即将来临的Sciter 4.1..的变化</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="sciter特有标签"><a href="#sciter特有标签" class="header-anchor">#</a> Sciter特有标签</h2> <p>&lt;include&gt;, &lt;widget&gt; 和 &lt;popup&gt;</p> <p>Sciter能够识别下面这些非标准HTML标签:</p> <h3>&lt;include&gt;</h3> <p>这个标签运行将一个HTML片段引入当前文档。Sciter支持该标签的两种格式:</p> <p><font face="Courier">&lt;include src=&quot;url-of-the-fragment-html-text&quot; /&gt;</font> 和 </p> <p><font face="Courier">&lt;include src=&quot;url-of-the-fragment-html-text&quot; &gt; <br>
+	    替代标记(当src加载失败时)  <br>
+	  &lt;/include&gt;</font></p> <p>第一种格式(空元素标签)将会用src属性指定的HTML片段替换这个include元素。</p> <p>第二种格式与第一种相同，不过它允许定义当src文档不存在时的替代标记内容。示例:</p> <p>doument-base.html :</p> <blockquote><div>
+        &lt;html&gt;&lt;body&gt;
+       </div> <blockquote><div>
+         一个复合文档的示例。 
+         <br>&lt;include src=&quot;document-fragment.html&quot;&gt;
+         <br>     &lt;em&gt;对不起，document-fragment.html不存在!&lt;/em&gt;
+         <br>&lt;/include&gt;
+        </div></blockquote> <div>
+        &lt;/body&gt;&lt;/html&gt;
+       </div></blockquote> <p>document-fragment.html文档的内容为:</p> <blockquote><p>&lt;p&gt;这是一个HTML文档片段。&lt;/p&gt;<br>
+	   &lt;p&gt;这是片段中的另一个段落。&lt;/p&gt;</p></blockquote> <p>当doument-base.html加载完成后，组装和渲染的实际文档为:</p> <blockquote><div>
+        &lt;html&gt;&lt;body&gt;
+       </div> <blockquote><div>
+         一个复合文档的示例。
+        </div> <div>
+         &lt;p&gt;这是一个HTML文档片段。&lt;/p&gt;
+         <br>&lt;p&gt;这是片段中的另一个段落。&lt;/p&gt;
+         <br></div></blockquote> <div>
+        &lt;/body&gt;&lt;/html&gt;
+       </div></blockquote> <p>而如果document-fragment.html文档不存在时，组装和渲染的实际文档为:</p> <div>
+       &lt;html&gt;&lt;body&gt;
+      </div> <blockquote><div>
+        一个复合文档的示例。 
+        <br>       &lt;em&gt;对不起，document-fragment.html不存在!&lt;/em&gt;
+        <br></div></blockquote> <div>
+       &lt;/body&gt;&lt;/html&gt;
+      </div> <h4>片段文件中的相对路径解决方案: </h4> <p>片段文件中的所有相对路径属性(如href、src)和行内样式中的URL，它们的路径都是相对于doument-base.html文档的URL，而不是片段文件本身。可以将基本文档和片段文档认为一个文档的多个部分。</p> <h3>&lt;widget&gt;</h3> <p>&lt;widget&gt;是一个块级元素，它等同于内联的&lt;input&gt;��&lt;select&gt;标签。根据HTML规范，&lt;input&gt;元素只能出现在文本容器中。如果将&lt;input&gt;作为某些元素的立即子元素，如&lt;td&gt;，则引擎会为它创建一个匿名文本容器。有时这种行为时不可取的。例如，一些内联块元素的高度定义了百分比单位，它们的高度将使用这个匿名文本容器的高度来进行计算，而不是&lt;td&gt;元素。当你需要在垂直方向上展开input元素(如&lt;select&gt;、&lt;textarea&gt;)时，请使用&lt;widget&gt;元素。  Good analog for &lt;input&gt; is &lt;img&gt; element (it is also inline block) and analog of &lt;widget&gt; is &lt;div&gt;.</p> <p>Widget与&lt;input&gt;元素有相同的属性集。唯一的不同是type属性的值的扩展集。除了(input)标准的值，如text、checkbox、radio等，type属性也接受以下值:</p> <ul><li><strong>&lt;widget type=&quot;select&quot;&gt;</strong> - 选择列表块元素;</li> <li><strong>&lt;widget type=&quot;dropdown-select&quot;&gt;</strong> - 下拉选择框块元素;</li> <li><strong>&lt;widget type=&quot;textarea&quot;&gt;</strong> - 文本区域块元素;</li> <li><strong>&lt;widget type=&quot;htmlarea&quot;&gt;</strong> - html区域块元素;</li></ul> <div>
+       &lt;widget&gt;元素必须有&lt;/widget&gt;尾标签。
+      </div> <h3>&lt;popup&gt;</h3> <p>&lt;popup&gt;是一个块元素(类似&lt;div&gt;)，它用于定义文档中的弹出元素。通常情况下，弹出元素是不可见的。</p> <p>&lt;popup&gt;元素的一个主要目的是提供html格式化的气泡提示。例如下面的代码片段:</p> <p><font face="Courier">&lt;p titleid=&quot;my-html-title&quot;&gt;。当鼠标放在这个元素上时将看到HTML气泡提示&lt;/p&gt;<br>
+	  &lt;popup id=&quot;my-html-title&quot;&gt;<br> 
+	  这是一个HTML气泡提示的&lt;em&gt;示例&lt;/em&gt;<br> 
+	  &lt;/popup&gt;</font></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/other/Drag_and_Drop.html" class="prev">
+        拖拽操作
+      </a></span> <span class="next"><a href="/other/behavior_prototype_aspect.html">
+        behavior与prototype/aspect
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.25afb6f1.js" defer></script><script src="/assets/js/2.f091b61c.js" defer></script><script src="/assets/js/82.1caaed8d.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lang库 | Sciter</title>
+    <meta name="description" content="基于原sciter文档的优化">
+    <meta name="generator" content="VuePress 1.3.1">
+    <link rel="icon" href="/logo.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.14df8ef2.css" as="style"><link rel="preload" href="/assets/js/app.25afb6f1.js" as="script"><link rel="preload" href="/assets/js/2.f091b61c.js" as="script"><link rel="preload" href="/assets/js/114.c6e125d2.js" as="script"><link rel="prefetch" href="/assets/js/10.af124683.js"><link rel="prefetch" href="/assets/js/100.5ab51366.js"><link rel="prefetch" href="/assets/js/101.73480f3b.js"><link rel="prefetch" href="/assets/js/102.a5499c76.js"><link rel="prefetch" href="/assets/js/103.7ec3eb8c.js"><link rel="prefetch" href="/assets/js/104.e203cded.js"><link rel="prefetch" href="/assets/js/105.582369e0.js"><link rel="prefetch" href="/assets/js/106.d9976ea1.js"><link rel="prefetch" href="/assets/js/107.89e7db1b.js"><link rel="prefetch" href="/assets/js/108.b0c8bd49.js"><link rel="prefetch" href="/assets/js/109.4d40e2e3.js"><link rel="prefetch" href="/assets/js/11.fa52c1f8.js"><link rel="prefetch" href="/assets/js/110.cc341f8f.js"><link rel="prefetch" href="/assets/js/111.5f20a0b6.js"><link rel="prefetch" href="/assets/js/112.9d1df522.js"><link rel="prefetch" href="/assets/js/113.d1240d1a.js"><link rel="prefetch" href="/assets/js/115.026faf48.js"><link rel="prefetch" href="/assets/js/116.73b47b7c.js"><link rel="prefetch" href="/assets/js/117.ec3176a2.js"><link rel="prefetch" href="/assets/js/118.ac9d6ac6.js"><link rel="prefetch" href="/assets/js/119.8c5f3f2b.js"><link rel="prefetch" href="/assets/js/12.53e904e3.js"><link rel="prefetch" href="/assets/js/120.0ceb7cb8.js"><link rel="prefetch" href="/assets/js/121.a19c5adb.js"><link rel="prefetch" href="/assets/js/122.eb3c9d50.js"><link rel="prefetch" href="/assets/js/123.09f7e4ac.js"><link rel="prefetch" href="/assets/js/124.8c32b6b4.js"><link rel="prefetch" href="/assets/js/125.f29b97e2.js"><link rel="prefetch" href="/assets/js/126.3d7f9c1a.js"><link rel="prefetch" href="/assets/js/127.f0381b50.js"><link rel="prefetch" href="/assets/js/128.de05fc4c.js"><link rel="prefetch" href="/assets/js/129.d6327862.js"><link rel="prefetch" href="/assets/js/13.47f1333b.js"><link rel="prefetch" href="/assets/js/130.e1fec9b6.js"><link rel="prefetch" href="/assets/js/131.9e3a3b8b.js"><link rel="prefetch" href="/assets/js/132.526b5014.js"><link rel="prefetch" href="/assets/js/14.5ed6fac0.js"><link rel="prefetch" href="/assets/js/15.66c031fc.js"><link rel="prefetch" href="/assets/js/16.483a32da.js"><link rel="prefetch" href="/assets/js/17.5bc8ec71.js"><link rel="prefetch" href="/assets/js/18.cc0be206.js"><link rel="prefetch" href="/assets/js/19.9b62ebaa.js"><link rel="prefetch" href="/assets/js/20.a98c0798.js"><link rel="prefetch" href="/assets/js/21.86eafb47.js"><link rel="prefetch" href="/assets/js/22.2ef500e6.js"><link rel="prefetch" href="/assets/js/23.6de00dfe.js"><link rel="prefetch" href="/assets/js/24.16a567cd.js"><link rel="prefetch" href="/assets/js/25.0bf66006.js"><link rel="prefetch" href="/assets/js/26.234f4e33.js"><link rel="prefetch" href="/assets/js/27.fb2e3402.js"><link rel="prefetch" href="/assets/js/28.34708c8e.js"><link rel="prefetch" href="/assets/js/29.4d8eada1.js"><link rel="prefetch" href="/assets/js/3.7ea26f66.js"><link rel="prefetch" href="/assets/js/30.5bb415f0.js"><link rel="prefetch" href="/assets/js/31.c8263b90.js"><link rel="prefetch" href="/assets/js/32.bd415599.js"><link rel="prefetch" href="/assets/js/33.b8d389da.js"><link rel="prefetch" href="/assets/js/34.571c55ba.js"><link rel="prefetch" href="/assets/js/35.8a7f87ba.js"><link rel="prefetch" href="/assets/js/36.2c423e72.js"><link rel="prefetch" href="/assets/js/37.a2681ec0.js"><link rel="prefetch" href="/assets/js/38.dc8aa28e.js"><link rel="prefetch" href="/assets/js/39.638ecade.js"><link rel="prefetch" href="/assets/js/4.06aa2ba4.js"><link rel="prefetch" href="/assets/js/40.d2b61e41.js"><link rel="prefetch" href="/assets/js/41.59f2dfc7.js"><link rel="prefetch" href="/assets/js/42.d46543cd.js"><link rel="prefetch" href="/assets/js/43.6b81d626.js"><link rel="prefetch" href="/assets/js/44.341a01e1.js"><link rel="prefetch" href="/assets/js/45.66ba9b81.js"><link rel="prefetch" href="/assets/js/46.85555c41.js"><link rel="prefetch" href="/assets/js/47.1ca8e86a.js"><link rel="prefetch" href="/assets/js/48.46147d01.js"><link rel="prefetch" href="/assets/js/49.75982250.js"><link rel="prefetch" href="/assets/js/5.1e4da9ad.js"><link rel="prefetch" href="/assets/js/50.7786bf4b.js"><link rel="prefetch" href="/assets/js/51.0de21788.js"><link rel="prefetch" href="/assets/js/52.b110917a.js"><link rel="prefetch" href="/assets/js/53.3fcbaa64.js"><link rel="prefetch" href="/assets/js/54.aa936ba4.js"><link rel="prefetch" href="/assets/js/55.127a283f.js"><link rel="prefetch" href="/assets/js/56.02aa113c.js"><link rel="prefetch" href="/assets/js/57.2663e0f5.js"><link rel="prefetch" href="/assets/js/58.31453605.js"><link rel="prefetch" href="/assets/js/59.8ac9b41e.js"><link rel="prefetch" href="/assets/js/6.b14fd999.js"><link rel="prefetch" href="/assets/js/60.90153ab7.js"><link rel="prefetch" href="/assets/js/61.d84ae66c.js"><link rel="prefetch" href="/assets/js/62.922faf2e.js"><link rel="prefetch" href="/assets/js/63.8cb5e321.js"><link rel="prefetch" href="/assets/js/64.7871bcde.js"><link rel="prefetch" href="/assets/js/65.f46c424d.js"><link rel="prefetch" href="/assets/js/66.d83bc39d.js"><link rel="prefetch" href="/assets/js/67.22fdfbb1.js"><link rel="prefetch" href="/assets/js/68.7132c8db.js"><link rel="prefetch" href="/assets/js/69.13d9c6d1.js"><link rel="prefetch" href="/assets/js/7.54fa0855.js"><link rel="prefetch" href="/assets/js/70.7780c499.js"><link rel="prefetch" href="/assets/js/71.4c8d9981.js"><link rel="prefetch" href="/assets/js/72.17f1724d.js"><link rel="prefetch" href="/assets/js/73.6d4c2dd4.js"><link rel="prefetch" href="/assets/js/74.6a821f95.js"><link rel="prefetch" href="/assets/js/75.55dfc4a1.js"><link rel="prefetch" href="/assets/js/76.8cc122c5.js"><link rel="prefetch" href="/assets/js/77.1df9f769.js"><link rel="prefetch" href="/assets/js/78.3020e71e.js"><link rel="prefetch" href="/assets/js/79.cf5a3c2b.js"><link rel="prefetch" href="/assets/js/8.45807cfe.js"><link rel="prefetch" href="/assets/js/80.947c33a2.js"><link rel="prefetch" href="/assets/js/81.9e6efe5e.js"><link rel="prefetch" href="/assets/js/82.1caaed8d.js"><link rel="prefetch" href="/assets/js/83.1e809725.js"><link rel="prefetch" href="/assets/js/84.78c7ad84.js"><link rel="prefetch" href="/assets/js/85.17081e42.js"><link rel="prefetch" href="/assets/js/86.c73525b1.js"><link rel="prefetch" href="/assets/js/87.9e892dfd.js"><link rel="prefetch" href="/assets/js/88.2c43e781.js"><link rel="prefetch" href="/assets/js/89.52220a8d.js"><link rel="prefetch" href="/assets/js/9.53ff3b6e.js"><link rel="prefetch" href="/assets/js/90.274e597e.js"><link rel="prefetch" href="/assets/js/91.2c6aed2e.js"><link rel="prefetch" href="/assets/js/92.2a80d761.js"><link rel="prefetch" href="/assets/js/93.d49cf83b.js"><link rel="prefetch" href="/assets/js/94.f6dc69cc.js"><link rel="prefetch" href="/assets/js/95.d9e1bb1f.js"><link rel="prefetch" href="/assets/js/96.fa64258f.js"><link rel="prefetch" href="/assets/js/97.7dac506d.js"><link rel="prefetch" href="/assets/js/98.fd9b5a4b.js"><link rel="prefetch" href="/assets/js/99.91fc7337.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.14df8ef2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sciter</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/css/css_properties_map.html" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/Dom/Element.html" class="nav-link">
+  Dom类
+</a></div><div class="nav-item"><a href="/tiscript/tiscript_article.html" class="nav-link">
+  脚本(TIScript)
+</a></div><div class="nav-item"><a href="/runtime/Global.html" class="nav-link">
+  脚本运行时
+</a></div><div class="nav-item"><a href="/js/buttonClass.html" class="nav-link">
+  行为
+</a></div><div class="nav-item"><a href="/store/Formation.html" class="nav-link">
+  脚本库
+</a></div><div class="nav-item"><a href="/js_csss/csss.html" class="nav-link">
+  脚本(CSSS!)
+</a></div><div class="nav-item"><a href="/other/standalone_Sciter_executable.html" class="nav-link">
+  其他内容
+</a></div><div class="nav-item"><a href="/localApi/window.html" class="nav-link">
+  本地API
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/store/Formation.html" class="sidebar-link">Formation库</a></li><li><a href="/store/Lang.html" class="active sidebar-link">Lang库</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/store/Lang.html#多语言-lang-框架" class="sidebar-link">多语言(Lang)框架</a></li></ul></li><li><a href="/store/plus.html" class="sidebar-link">plus库</a></li><li><a href="/store/q_doc.html" class="sidebar-link">q(JQuery)库</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="lang库"><a href="#lang库" class="header-anchor">#</a> Lang库</h1> <h2 id="多语言-lang-框架"><a href="#多语言-lang-框架" class="header-anchor">#</a> 多语言(Lang)框架</h2> <p>Lang框架是实现i18n自动识别UI的一种方式，这些UI可以以多种人类语言来展示。它提供了下面一些特性:</p> <ol><li>翻译静态文本和标签(label);</li> <li>格式化动态值，包括多种数据和自定义规则;</li> <li>对UI支持的语言可以一次翻译，多次展示;</li> <li>将特定语言翻译定义到一个文件中，而不是分散在大量的代码、样式和html文件中。这样若要给UI添加新的语言翻译，只需要创建一个新的语言文件。</li></ol> <h2>基本原则</h2> <p>应用程序的UI有一个或多个HTML文件组成，且这些文件对所有支持语言是相同的。</p> <p>每种支持的语言需要有一个所谓的翻译映射文件TMF(translation map file).</p> <p>TMF文件是一个tiscript脚本文件，它定义翻译项ID(&quot;translatable ID&quot;)和对应展示的人类语言的映射关系。</p> <h3>TMF文件的结构</h3> <p>TMF是一个普通的脚本文件，区别是加载完成后会调用eval()函数进行求值。</p> <p>TMF文件的求值结果将作为一个对象——一个翻译项ID(&quot;translatable ID&quot;)对应到另一个字符串或函数(提供翻译/复合字符串)的映射表。</p> <p>下面是一个简单的中文的翻译映射文件:</p> <pre><code>({
+  &quot;Matchboxes&quot;:&quot;盒子&quot;,        // 静态文本入口
+  &quot;There are # matches in the box&quot; : // 简单的多态入口
+      function(n) { 
+        return  n == 0 ? &quot;该盒子是空的&quot; 
+              : n == 1 ? &quot;该盒子中只有一个物品&quot; 
+              : String.printf(&quot;该盒子共有%d个物品&quot;,n);
+  },
+  ...
+}) 
+</code></pre> <p>正如你说看到的，这个映射文件就是一个从翻译项到给定语言的映射表。</p> <h2>引入多语言框架</h2> <p>要引入多语言(Lang)框架，你只需在你的样式中包含sciter-sdk/+lang/目录中的lang.css文件。示例:</p> <pre><code>&lt;style&gt;
+   @import url(../lang.css);
+&lt;/style&gt;
+</code></pre> <h3>引入指定的翻译映射语言文件</h3> <p>要引入指定的翻译映射语言文件，只需在html文档的head部分引入特定的&lt;link&gt;元素:</p> <pre><code>&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!-- 这两个link定义了英语和俄语的翻译语言文件 --&gt;
+    &lt;link href=&quot;lang/ru.tis&quot; hreflang=&quot;ru&quot; rel=&quot;translation&quot; &gt;
+    &lt;link href=&quot;lang/en.tis&quot; hreflang=&quot;en&quot; rel=&quot;translation&quot; &gt;
+    ...
+</code></pre> <p>加载时，Lang会将与&lt;html lang=&quot;...&quot;&gt;属性匹配的TMF文件加载进来。所以UI会将&lt;html&gt;标签的lang属性定义的语言作为默认的展示语言。</p> <h3>在html中标记翻译&quot;点&quot;</h3> <h4>静态文本</h4> <p>若要在你的UI中定义可翻译的静态文本，可以采用下面的几种方式:</p> <ol><li>使用<code>&lt;dfn&gt;</code>元素, 示例: <br> <code>&lt;dfn&gt;待翻译文本&lt;/dfn&gt; </code><br>
+	如果你的TMF文件中包含下面的入口: <br>  <code>&quot;待翻译文本&quot; : &quot;翻译后的文本&quot;</code> <br>
+	则用户将会看到&quot;<em>翻译后的文本</em>&quot;，而不是<code>&lt;dfn&gt;</code>元素中的原始内容;</li> <li>使用<code>&lt;label&gt;</code>元素。Lang框架默认会将&lt;label&gt;元素当做&lt;dfn&gt;元素对待;</li> <li>为任何元素的class属性包含<code>dfn</code>文本即可，如：<code>&lt;li class=&quot;dfn&quot;&gt;待翻译文本&lt;/li&gt;</code>;</li> <li>使用CSS选择器为任何元素设置aspect为<em>Lang.Label</em>:<br> <code>ul#options &gt; li  { aspect:&quot;Lang.Label&quot;; }</code></li></ol> <h4>动态文本 - 多态文本(即需要根据某个变量动态变化的文本)</h4> <p>有一些场景是文本需要被格式化或复合成不同的表示文本。例如考虑下面这些情况: &quot;1对应cactus&quot; 但是&quot;2对应cactii&quot;, &quot;1对应match&quot; 但是&quot;2对应matches&quot;等。 多态规则是一个非常特定语言化的，而且通常不能很好的生成正确的文本。所以Lang框架旨在提供一种最基础的解决多态文本的方式，而不是考虑覆盖所有语言可能的应用场景。</p> <p>若要在你的UI中定义可翻译的动态文本，可以采用下面的几种方式:</p> <ol><li>使用<code>&lt;var&gt;</code>元素, 示例: <br> <code>&lt;var&gt;There are # matches in the box&lt;/var&gt;</code>. <br>The Lang框架为为<code>&lt;var&gt;</code>元素生成一个<code>value</code>属性。因此，当你在代码中将某些数字值设置到<code>&lt;var&gt;</code>元素上时，Lang框架将会调用映射表中对应的格式化函数来格式化<code>&lt;var&gt;</code>中的字符串。参考上面的翻译映射文件。 </li> <li>为任何元素的class属性包含<code>var</code>文本即可, 如：<code>&lt;li class=&quot;var&quot;&gt;There are # matches in the box&lt;/li&gt;</code>;</li> <li>使用CSS选择器为任何元素设置aspect为<em>Lang.Formatter</em>:<br> <code>ul#options &gt; li  { aspect:&quot;Lang.Formatter&quot;; }</code></li></ol> <h2>翻译映射文件的自动生成和维护</h2> <p>为了使用Lang框架，我猜测你可能会做以下几个步骤:</p> <h4>0. 创建一个初始的en.tis翻译文件，它有以下内容:</h4> <pre><code>({ })
+</code></pre> <p>保存该文件到/lang/en.tis。现在你有了一个控制翻译表。</p> <h4>1. 使用你的默认语言定义你的UI。</h4> <p>现在让我假设它是英语，你的UI看起来可能如下面的样子:</p> <pre><code>&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;link href=&quot;lang/en.tis&quot; hreflang=&quot;en&quot; rel=&quot;translation&quot; &gt;
+    &lt;style&gt;
+      @import url(../lang.css); /* 启用Lang框架 */
+    &lt;/style&gt;
+    &lt;script type=&quot;text/tiscript&quot;&gt;
+      include &quot;../lang.tis&quot;;       // 加载Lang框架
+      include &quot;../lang-tool.tis&quot;;  // 加载Lang框架工具库——翻译映射表生成器
+    &lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;label&gt;MATCHES&lt;/label&gt; 
+    &lt;var id=&quot;nmatches&quot;&gt;MATCHES-PLURALIZED&lt;/var&gt;&lt;/p&gt; 
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre> <p>注意声明代码中的<code>include &quot;../lang-tool.tis&quot;;</code>。它包含了一个翻译映射表生成工具。 </p> <h4>2. 在你的程序中加载html标记语言，并且运行生成映射表工具</h4> <p>在加载完UI页面后，在你的应用程序中按下CTRL+SHIFT+F11，这时会调用翻译映射表生成器，他会将生成的映射表放到剪切板中。 <br></p> <p>将剪切板中的内容复制到某个文件中，如果是上面的空映射表和html代码，则你得到的内容应该如下:</p> <pre><code>// items not found:
+{
+ &quot;MATCHES-PLURALIZED&quot;:&quot;function (v){ return \&quot;?\&quot; }&quot;,
+ &quot;MATCHES&quot;:&quot;?&quot;
+}
+// OK, no unused items
+</code></pre> <p>第一节将会给出在你的最终映射表中需要被翻译和出现项的列表:</p> <pre><code>({ 
+ &quot;MATCHES-PLURALIZED&quot;: function (v){ return ... },
+ &quot;MATCHES&quot;: &quot;Matches&quot;
+})
+</code></pre> <p>你可以在你的app开发生命周期中重复上面的过程——有些项会被增加，而有些项会被移除(你将会在第二节看到它们)。在提交QA和测试之前建成这些项。</p> <p>接着只需注释掉映射表生产工具的引用:  <code>// include &quot;../lang-tool.tis&quot;;</code>这样它就不会占用任何空间和快捷键。 </p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/store/Formation.html" class="prev">
+        Formation库
+      </a></span> <span class="next"><a href="/store/plus.html">
+        plus库
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.25afb6f1.js" defer></script><script src="/assets/js/2.f091b61c.js" defer></script><script src="/assets/js/114.c6e125d2.js" defer></script>
+  </body>
+</html>
